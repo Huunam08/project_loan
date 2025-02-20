@@ -18,7 +18,24 @@ Dự án này sử dụng ba mô hình Random Forest, XGBoost, và Decision Tree
 
 ### main.py: Chương trình dự đoán bằng mô hình XGBoost.
 
+# Mô tả tập dữ liệu
+* loan_id – ID khoản vay, một mã duy nhất để nhận diện từng khoản vay.
+* no_of_dependents – Số người phụ thuộc của người vay (ví dụ: con cái, cha mẹ, v.v.).
+* education – Trình độ học vấn của người vay (ví dụ: "Graduate", "Not Graduate").
+* self_employed – Người vay có tự kinh doanh hay không ("Yes" hoặc "No").
+* income_annum – Thu nhập hàng năm của người vay (thường tính theo đơn vị tiền tệ cụ thể, ví dụ: USD).
+* loan_amount – Số tiền vay.
+* loan_term – Thời hạn khoản vay (có thể tính theo tháng hoặc năm).
+* cibil_score – Điểm tín dụng CIBIL của người vay (thường trong khoảng 300 - 900, điểm càng cao càng tốt).
+* residential_assets_value – Giá trị tài sản nhà ở của người vay.
+* commercial_assets_value – Giá trị tài sản thương mại của người vay (ví dụ: mặt bằng kinh doanh).
+* luxury_assets_value – Giá trị tài sản xa xỉ của người vay (xe hơi, du thuyền, v.v.).
+* bank_asset_value – Tổng giá trị tài sản của người vay trong ngân hàng.
+* loan_status – Trạng thái khoản vay (ví dụ: "Approved" - Được duyệt, "Rejected" - Bị từ chối).
+
 # Các bước thực hiện
+
+## 1.Đọc dữ liệu và xử lý dữ liệu
 
 ## 1. Huấn luyện mô hình
 
@@ -62,7 +79,7 @@ Cách nhập dữ liệu tương tự như Random Forest.
 
 ## 3. So sánh kết quả
 
-Sau khi chạy cả hai mô hình, bạn có thể so sánh kết quả để xem mô hình nào dự đoán tốt hơn.
+Sau khi chạy cả ba  mô hình,tôi đưa vào thực tế 2 mô hình là mô hình Random Forset và XGboot
 
  Cách cài đặt và chạy dự án
 
