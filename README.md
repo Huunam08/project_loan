@@ -1,6 +1,6 @@
 # Giới thiệu
 
-Dự án này sử dụng ba mô hình Random Forest, XGBoost, và Decision Tree để dự đoán khách hàng có được phê duyệt khi vay tiền. Sau khi huấn luyện, chúng tôi đã triển khai chương trình dự đoán cho hai mô hình Random Forest và XGBoost.
+Dự án này sử dụng ba mô hình Random Forest, XGBoost, và Decision Tree để dự đoán khách hàng có được phê duyệt hay bị từ chối khi nộp hồ sơ vay tiền. Sau khi huấn luyện, chúng tôi đã triển khai chương trình dự đoán cho hai mô hình Random Forest và XGBoost.
 
 # Cấu trúc dự án
 
@@ -91,8 +91,8 @@ Huấn luyện mô hình bằng cách mở các notebook và chạy toàn bộ c
 
 Chạy chương trình dự đoán như hướng dẫn trên.
 
-Kết quả mong đợi
+Kết quả 
 
 So sánh độ chính xác giữa các mô hình.
 
-Sử dụng mô hình có kết quả tốt nhất để áp dụng vào thực tế.
+Sử dụng 2 mô hình có kết quả tốt nhất để áp dụng vào thực tế.
